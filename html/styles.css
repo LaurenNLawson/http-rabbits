@@ -1,0 +1,102 @@
+body {
+    text-align: center;
+    background-color: rgb(12, 11, 11);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}  
+
+hr{
+  border: 1.5px solid #e82127;
+  width: 35%;
+  border-bottom: 1px solid white;
+}
+
+a{
+  color:#e82127;
+}
+
+.header{
+  padding: 25pt 0pt 15pt 0pt;
+}
+
+.sub-headers{
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#FAQ, #API{
+  font-size: 1.7rem;
+}
+
+#Q1, #Q2{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#A1, #A2{
+  font-size: 1.2rem;
+}
+
+.discord{
+  margin-top: 35pt;
+}
+
+.content-box {
+  margin: auto;
+  background-color: black;
+  width: 35%;
+  border-radius: 0.625em;
+  padding: 5pt 5pt 20pt 5pt;
+  text-align: center;
+  border: solid #e82127 0.125em;
+}
+
+@media screen and (max-width: 1200px) {
+  .content-box, hr{
+      width: 90%;
+      margin-top: 0;
+  }
+  .content-box hr{
+    width: 28%;
+  }
+}
+
+#content-label {
+  text-align: left;
+  margin-right: 200pt;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+#resize{
+  margin-left: 60pt;
+  background-color: black;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 900;
+  float: center;
+  margin-right: 55pt;
+  border: 0.5px solid black;
+  cursor: pointer;
+}
+
+#resize:hover {
+  background-color: #e82127;
+  color: white;
+}
+
+footer{
+  font-size: 1.25rem;
+}
+
+#quote{
+  padding-top: 25pt;
+  font-size: 1.75rem;
+}
+
+
